@@ -1,5 +1,12 @@
 package org.launchcode.java.demos;
 
+import com.sun.xml.internal.stream.events.ProcessingInstructionEvent;
+
+import java.security.KeyStore;
+import java.util.Scanner;
+import java.util.*;
+
+
 /**
  * Created by LaunchCode
  */
@@ -18,7 +25,7 @@ public class Arrays {
     public static void printArrayOfNumbers() {
 
         // Declare and initialize an array of integers
-        int[] numbers = {1, 2, 6, 9, 10, 14, 17, 20, 24, 42, 45, 85};
+        int[] numbers = {};
 
         // Loop over the array and print each number
         for (int i = 0; i < numbers.length; i++) {
